@@ -37,8 +37,8 @@ article h1 after {
     margin:auto;
 }
 article img {
-    height: 280px;
-    width: 280px;
+    height: 500px;
+    width: 800px;
     border:2px solid #fff;
     border-radius: 00%;
     margin-top: 60px;
@@ -55,66 +55,25 @@ blockquote{
     font-size: 30px;
     margin-top: 30px;
     }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    align-self: center;
-  }
-  
-  td, th {
-    border: 1px solid #ffffff;
-    text-align: left;
-    padding: 4px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #a0a7c7;
-  }
-.icons {
-    position:relative;
-    margin-top:30 px;
+    .menu-bar {
+        background: #1a0501;
+        text-align: center;
     
-}
-.icons .fa {
-    width: 50px;
-    height: 50px;
-    padding: 15px;
-    background: #fff;
-    border-radius: 50%;
-    text-align: center;
-    color: #000;
-    font-size:20px;
-}
-.icons .fa:hover {
-background: #000;
-color: #fff;
-transition: 0.5s;
-cursor: pointer;
-}
-.tablo {
-    margin-left: 6%;
-    margin-right: 6%;
-}
-.menu-bar {
-    background: #1a0501;
-    text-align: center;
-
-}
-.menu-bar ul {
-    display: inline-flex;
-    list-style: none;
-}
-.menu-bar ul li {
-    width: 150px;
-    margin: 15px;
-    padding: 15px;
-
-}
-.menu-bar ul li a{
-    text-decoration: none;
-}
-.active, .menu-bar ul li:hover {
-    background: #d4c995;
-    border-radius: 10px;
-}
+    }
+    .menu-bar ul {
+        display: inline-flex;
+        list-style: none;
+    }
+    .menu-bar ul li {
+        width: 150px;
+        margin: 15px;
+        padding: 15px;
+    
+    }
+    .menu-bar ul li a{
+        text-decoration: none;
+    }
+    .active, .menu-bar ul li:hover {
+        background: #d4c995;
+        border-radius: 10px;
+    }

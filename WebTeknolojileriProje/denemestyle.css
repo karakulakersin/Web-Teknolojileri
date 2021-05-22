@@ -1,65 +1,102 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #23E3C9;
+#iletisim{
+    background: url(../img/iletisim.jpg);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
 }
-.slider {
-    width: 800px;
-    height: 500px;
-    border-radius: 10px; 
-    overflow: hidden;
-}
-.slides {
-    width: 500%;
-    height: 500px;
-    display: flex;
-}
-.slides input {
-    display: none;
-}
-.slide {
-    width: 20%;
-    transition: 2s;
 
+#h3iletisim{
+    color: white;
 }
-.slide img{
-    width: 800px;
-    height: 500px;
-}
-.navigation-manual {
-    position: absolute;
-    width: 790px;
-    margin-top: 430px;
-    display: flex;
-    justify-content: center;
 
-}
-.manual-btn{
-    border: 2px solid #40D3DC;
-    padding: 5px;
+#iletisimopak{
+    background: rgba(255, 255, 255,0.2);
+    padding: 30px 20px;
     border-radius: 10px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#sagform{
+    width: 50%;
+    padding-left: 5px;
+    float: right;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type = "submit"]{
     cursor: pointer;
-    transition: 1s;
+    background-color: #445c6e;
+    font-size: 18px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
-.manual-btn:not(:last-child) {
-    margin-right: 40px;
+
+#adres{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
 }
-.manual-btn:hover {
-    background : #40D3DC;
+
+#adresbaslik{
+    font-size: 30px;
+    color:white;
 }
-#radio1:checked ~ .first{
-    margin-left: 0 ;
+
+.adresp{
+    color: #ddd;
+    font-size: 15px;
+    letter-spacing: 1.5px;
 }
-#radio2:checked ~ .first{
-    margin-left: -20%;
+
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
 }
-#radio3:checked ~ .first{
-    margin-left: -40% ;
-}
-#radio4:checked ~ .first{
-    margin-left: -60% ;
+
+#up{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 9px 12px;
+    margin-top: 20px;
 }

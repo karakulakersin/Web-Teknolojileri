@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <meta name= "viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="girisstyle.css"
+        >
+        <title>Hakkımda</title>
+    </head>
+    <body>
+        
+        <div class="wrapper">
+            
+                <div class="menu-bar">
+                    <ul>
+                        <li class "active"> <a href ="index.html">Ana Sayfa</a></li>
+                        <li> <a href ="CV.html">Özgeçmiş</a></li>
+                        <li> <a href ="Şehrim.html">Şehrim</a></li>
+                        <li> <a href ="Mirasimiz.html">Mirasım</a></li>
+                        <li> <a href ="iletisim.html">İletişim</a></li>
+                        <li> <a href ="giris.html">Giriş</a></li>
+                    </ul>
+                </div>
+                <div class="testimonial"></div>
+                
+                <!DOCTYPE html>
+<html>
+<head>
+    <title>login</title>
+    <link rel="stylesheet"  href="../login/login.css">
+    <script src="https://kit.fontawesome.com/c20485228a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="container">
+     <div class="header">
+         <h1>Giriş</h1>
+     </div>
+     <div class="main">
+         <form action="../login/login.php" method="post" style="max-width:500px;margin:auto">
+             <span>
+             <i class="fa fa-user"></i>
+                 <input type="email" placeholder="Kullanıcı Adı" name="usrnm" 
+                 required oninvalid="this.setCustomValidity('Kullanıcı Boş Girilemez!!')"
+                    oninput="this.setCustomValidity('')" >
+             </span><br>
+             <span>
+                 <i class="fa fa-lock"></i>
+                 <input type="password" placeholder="Şifre" name="psw" 
+                 required oninvalid="this.setCustomValidity('Şifre Boş Geçilemez !!')"
+                    oninput="this.setCustomValidity('')" >
+             </span><br>
+             <button type="submit" class="btn">Giriş Yap</button>
+
+         </form>
+     </div>
+ </div>
+</body>
+</html>
+
+<?php
+include("logincheck.php");
+?>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
