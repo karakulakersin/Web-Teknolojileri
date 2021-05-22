@@ -8,6 +8,10 @@
     color: #fff;
     line-height: 1.5;
     Letter-spacing: 1px;
+    
+    
+
+    
 }
 .wrapper {
     min-height: 100vh;
@@ -42,8 +46,7 @@
 .active, .menu-bar ul li:hover {
     background: #d4c995;
     border-radius: 10px;
-}
-.article h1 {
+}.article h1 {
     font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
@@ -58,10 +61,10 @@ article h1 after {
     margin:auto;
 }
 article img {
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 800px;
     border:2px solid #fff;
-    border-radius: 50%;
+    border-radius: 0%;
     margin-top: 60px;
 }
 article img cv {
@@ -86,44 +89,60 @@ article p {
     font-size: 17px;
     
 }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    align-self: center;
-  }
-  
-  td, th {
-    border: 1px solid #ffffff;
-    text-align: left;
-    padding: 4px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #a0a7c7;
-  }
-.icons {
-    position:relative;
-    margin-top:30 px;
-    
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px; 
+    overflow: hidden;
+    margin-left: 24%;
 }
-.icons .fa {
-    width: 50px;
-    height: 50px;
-    padding: 15px;
-    background: #fff;
-    border-radius: 50%;
-    text-align: center;
-    color: #000;
-    font-size:20px;
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
 }
-.icons .fa:hover {
-background: #000;
-color: #fff;
-transition: 0.5s;
-cursor: pointer;
+.slides input {
+    display: none;
 }
-.tablo {
-    margin-left: 10%;
-    margin-right: 10%;
+.slide {
+    width: 20%;
+    transition: 2s;
+
+}
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+.navigation-manual {
+    position: absolute;
+    width: 790px;
+    margin-top: 430px;
+    display: flex;
+    justify-content: center;
+
+}
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+.manual-btn:hover {
+    background : #40D3DC;
+}
+#radio1:checked ~ .first{
+    margin-left: 0 ;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40% ;
+}
+#radio4:checked ~ .first{
+    margin-left: -60% ;
 }
