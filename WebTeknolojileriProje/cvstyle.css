@@ -17,6 +17,11 @@
     background-repeat: no repeat;
     background-size: cover;
 }
+.testimonial {
+    padding: 30px 100px;
+
+}
+.m
 .article h1 {
     font-size: 50px;
     font-weight: 800;
@@ -41,7 +46,7 @@ article img {
 
 }
 article p {
-    font-size: 55px;
+    font-size: 27px;
 
     
 }
@@ -54,12 +59,13 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    align-self: center;
   }
   
   td, th {
     border: 1px solid #ffffff;
     text-align: left;
-    padding: 8px;
+    padding: 4px;
   }
   
   tr:nth-child(even) {
@@ -85,4 +91,30 @@ background: #000;
 color: #fff;
 transition: 0.5s;
 cursor: pointer;
+}
+.tablo {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.menu-bar {
+    background: #1a0501;
+    text-align: center;
+
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+}
+.active, .menu-bar ul li:hover {
+    background: #d4c995;
+    border-radius: 10px;
 }

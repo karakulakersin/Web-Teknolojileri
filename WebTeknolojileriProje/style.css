@@ -21,6 +21,28 @@
     padding: 30px 100px;
 
 }
+.menu-bar {
+    background: #1a0501;
+    text-align: center;
+
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+}
+.active, .menu-bar ul li:hover {
+    background: #d4c995;
+    border-radius: 10px;
+}
 .article h1 {
     font-size: 50px;
     font-weight: 800;
