@@ -64,6 +64,7 @@ article img {
     border-radius: 50%;
     margin-top: 60px;
 }
+
 article img cv {
     height: 300px;
     width: 300px;
@@ -122,8 +123,4 @@ background: #000;
 color: #fff;
 transition: 0.5s;
 cursor: pointer;
-}
-.tablo {
-    margin-left: 10%;
-    margin-right: 10%;
 }

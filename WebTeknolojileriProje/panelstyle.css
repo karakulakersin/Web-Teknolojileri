@@ -5,10 +5,9 @@
     box-sizing: border-box ;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: rgba(194, 185, 185, 0.89);
+    color: #fff;
     line-height: 1.5;
     Letter-spacing: 1px;
-
 }
 .wrapper {
     min-height: 100vh;
@@ -58,7 +57,13 @@ article h1 after {
     display: block;
     margin:auto;
 }
-
+article img {
+    height: 300px;
+    width: 300px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
+}
 article img cv {
     height: 300px;
     width: 300px;
@@ -81,88 +86,67 @@ article p {
     font-size: 17px;
     
 }
-#iletisim {
-    background-size:cover;
-    padding:50px;
-    height:auto;
-    text-align:Center;
-    margin-left: 23%;
-    margin-right: 20%;
-}
-#h3iletisim {
-    color:White;
-}
-#iletisimopak {
-    background: rgba(255,255,255,0.2);
-    padding: 30px 20px;
-    border-radius: 5px;
-    margin-bottom:50px;
-    height: 550px;
-}
-#formgroup {
-    width: 700px;
-    float:left;
-    height:500px;
-    text-align:left;
-}
-#solform {
-    width: 50%;
-    float: left;
-    padding-right: 5px;
-}
-#sagform {
-    width:50%;
-    float:right;
-    padding-left: 5px;
-}
-#konu {
-    width:50%;
-    float:right;
-    padding-left: 22px;
-}
-.form-control {
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
     width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    line-height:1.5;
-    color:#495057;
-    background-color: white;
-    margin:10px;
-    border-radius: 5px;
-    border: 1px solid #ced4da;
-}
-textarea {
-    font-family: Arial;
-}
-input[type="submit"] {
-    cursor: pointer;
-    background-color: #445c6e;
-    font-size:18px;
-    letter-spacing: 1px;
-    padding: 10px 110px;
-    color:White;
-    border: 2px solid white;
-    border-radius: 13px;
-    margin-left: 40px;
-    margin-top: 30px;
-}
-input[type="reset"] {
-    cursor: pointer;
-    background-color: #445c6e;
-    font-size:18px;
-    letter-spacing: 1px;
-    padding: 10px 110px;
-    color:White;
-    border: 2px solid white;
-    border-radius: 13px;
-    margin-left: 40px;
-    margin-top: 30px;
-}
-#konu {
-    margin-left:40px;
-}
-input[type="radio"]{
+    align-self: center;
+  }
+  
+  td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 4px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #a0a7c7;
+  }
+.icons {
+    position:relative;
+    margin-top:30 px;
     
-    margin-left: 20px;
-    margin-top: 20px;
 }
+.icons .fa {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+    font-size:20px;
+}
+.icons .fa:hover {
+background: #000;
+color: #fff;
+transition: 0.5s;
+cursor: pointer;
+}
+.tablo {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 203%
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }

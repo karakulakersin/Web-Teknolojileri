@@ -11,12 +11,13 @@
         <div class="wrapper">
           <div class="menu-bar">
             <ul>
-                <li class "active"> <a href ="index.html">Ana Sayfa</a></li>
-                <li> <a href ="CV.html">Özgeçmiş</a></li>
-                <li> <a href ="Şehrim.html">Şehrim</a></li>
-                <li> <a href ="Mirasimiz.html">Mirasım</a></li>
-                <li> <a href ="iletisim.html">İletişim</a></li>
-                <li> <a href ="giris.html">Giriş</a></li>
+            <li class "active"> <a href ="index.php">Ana Sayfa</a></li>
+                        <li> <a href ="CV.php">Özgeçmiş</a></li>
+                        <li> <a href ="Şehrim.php">Şehrim</a></li>
+                        <li> <a href ="Mirasimiz.php">Mirasım</a></li>
+                        <li> <a href ="iletisim.php">İletişim</a></li>
+                        <li> <a href ="ilgialanlarim.php">İlgi Alanlarım</a></li>
+                        <li> <a href ="giris.php">Giriş</a></li>
             </ul>
         </div>
             <div class="testimonial">
@@ -33,7 +34,7 @@
                     <blockquote>
                        Ersin Karakulak-22
                     </blockquote>
-                    <h5>Ben ne yaparım?</h5>
+                    <h5></h5>
                     <p>EĞİTİM   
 
                     </p>
