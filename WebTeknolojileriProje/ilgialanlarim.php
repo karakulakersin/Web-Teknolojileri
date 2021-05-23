@@ -1,6 +1,6 @@
 <html>
     <head>
-        <meta charset= "utf-8">
+     <meta charset= "utf-8">
         <meta name= "viewport" content="width-device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css"
         >
@@ -8,6 +8,8 @@
     </head>
     <body>
         
+
+           
         <div class="wrapper">
             
                 <div class="menu-bar">
@@ -25,7 +27,7 @@
                 
                 <article>
                     <h1> Hakkımda</h1>
-                    <img src = "ersin3.jfif">
+                    <img class="img-fluid"src = "ersin3.jfif">
                     <blockquote>
                        Merhaba, ben Ersin Karakulak. 22 Yaşındayım Tekirdağ'da yaşıyorum. Bilgisayar mühendisliği üçüncü sınıf öğrencisiyim.
                     </blockquote>
@@ -45,9 +47,8 @@
                     <p>
                         Sinema
                     </p>
-            </div>
-            
+           
         </div>
-        
+        </div>
     </body>
 </html>
